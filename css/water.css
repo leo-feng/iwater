@@ -1,0 +1,185 @@
+.autowin {
+	width: 100%;
+}
+.align-center {
+	text-align: center;
+	vertical-align: middle;
+}
+.spin315 {
+	transform: rotate(315deg);
+	/* IE 9 */
+	-ms-transform: rotate(315deg);
+	/* Firefox */
+	-moz-transform: rotate(315deg);
+	/* Safari 和 Chrome */
+	-webkit-transform: rotate(315deg);
+	-o-transform: rotate(315deg);
+}
+.btn-container {
+	margin: 20px auto 0px auto;
+}
+.btn1,input[type='button'].btn1 {
+	width: 95%;!important
+	height: 30px;
+	line-height: 30px;
+	background-color: green;
+	color: white;
+	border: 1px solid gainsboro;
+	
+}
+.message{
+	margin: 20px 10px;
+	display: none;
+}
+/********************************选购界面*******************************/
+/*定位信息显示层样式*/
+
+.lbs-info {
+	width: 100%;
+	height: 30px;
+	background-color: #FFFFC0;
+	line-height: 30px;
+	border-bottom: 1px solid gainsboro;
+	padding-left: 10px;
+}
+/*水的选择*/
+
+.water-item {
+	border-top: 1px solid gainsboro;
+	height: 50px;
+	line-height: 50px;
+}
+.water-item-last {
+	border-top: 1px solid gainsboro;
+	border-bottom: 1px solid gainsboro;
+}
+.water-ul {
+	list-style: none;
+	height: 30px;
+	width: 100%;
+	margin: 10px auto;
+	line-height: 30px;
+}
+.name-li {
+	height: 30px;
+	width: 35%;
+	display: inline-block;
+	padding-left: 20px;
+	line-height: 30px;!important
+}
+.name-circle {
+	width: 30px;
+	height: 30px;
+	display: block;
+	border: 1px solid gainsboro;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+.price-li {
+	height: 30px;
+	width: 30%;
+	display: inline-block;
+	cursor: pointer;
+	line-height: 30px;!important
+}
+.price {
+	border: 1px solid gainsboro;
+	width: 80%;
+}
+.price-sel{
+	background-color:green;
+	color:white;
+}
+
+.sale-price {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+/********************************下订单界面*******************************/
+
+.content {
+	height: 100px;
+	margin: 10px 10px 0px 10px;
+	border: 1px solid gainsboro;
+	line-height: 100px;
+}
+/********************************订单信息界面*******************************/
+
+.order-container {
+	margin: 20px 10px 0px 10px;
+	border: 1px solid gainsboro;
+	position: relative;
+	border-radius: 10px 10px;
+	-moz-border-radius: 10px 10px;
+	-webkit-border-radius: 10px 10px;
+}
+
+.order-container:before{
+	position:absolute;
+	top:-10px;
+	left:15px;
+	display:inline-block;
+	border-right:10px solid transparent;
+	border-bottom:10px solid #ccc;
+	border-left:10px solid transparent;
+	border-bottom-color:rgba(0,0,0,0.2);
+	content:'';
+}
+.order-container:after{
+	position:absolute;
+	top:-9px;
+	left:16px;
+	display:inline-block;
+	border-right:9px solid transparent;
+	border-bottom:9px solid #fff;
+	border-left:9px solid transparent;
+	content:''
+}
+
+.order-header {
+	border-bottom: 1px solid gainsboro;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+}
+.order-header-date {
+	margin-left: 10px;
+	height: 30px;
+	line-height: 30px;
+}
+.order-header-opr {
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	height: 30px;
+	line-height: 30px;
+}
+.order-body {
+	margin:10px auto;
+} 
+.order-body-ul{
+	list-style: none;
+	margin: 0px 20px;
+	padding: 0px;
+}
+.order-body-ul li{
+	line-height: 25px;
+	height: 25px;
+}
+.order-state {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	border: 2px solid red;
+	color: red;
+	height: 80px;
+	width: 80px;
+	line-height: 80px;
+	border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+}

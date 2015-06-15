@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>选购</title>
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link href="http://cdn.bootcss.com/bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet">
+		<link href="http://cdn.bootcss.com/bootstrap/2.3.2/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+		<link rel="stylesheet" href="css/water.css" />
+	</head>
+
+	<body>
+
+		<div class="lbs-info">
+			waterGraffle猜你在:旗胜家园
+		</div>
+
+		<div class="autowin" style="height:100px;">
+
+		</div>
+		<div id="watersContainer" class="autowin">
+
+			<div class="water-item">
+				<ul class="water-ul">
+					<li class="name-li">
+						<span class="name-circle align-center">A</span>
+					</li>
+					<li class="price-li">
+						<div class="price align-center" tag="water" water-type="A" price="25">25</div>
+					</li>
+					<li class="price-li">
+						<div class="price align-center" tag="water" water-type="A" price="50">50</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="water-item">
+				<ul class="water-ul">
+					<li class="name-li">
+						<span class="name-circle align-center">B</span>
+					</li>
+					<li class="price-li">
+						<div class="price align-center" tag="water" water-type="B" price="25">25</div>
+					</li>
+					<li class="price-li">
+						<div class="price align-center" tag="water" water-type="B" price="50">50</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="water-item water-item-last">
+				<ul class="water-ul">
+					<li class="name-li">
+						<span class="name-circle align-center">C</span>
+					</li>
+					<li class="price-li">
+						<div class="price align-center" tag="water" water-type="C" price="25">25</div>
+					</li>
+					<li class="price-li">
+						<div class="price align-center" tag="water" water-type="C" price="50">50</div>
+					</li>
+				</ul>
+			</div>
+
+			<div id="priceShowContainer" class="sale-price">售价:25元</div>
+			<div class="autowin align-center">
+				<input id="btnBuyNow" type="button" class="btn1" value="下单" />
+			</div>
+		
+			<div id="messageContainer" class="alert alert-error message">
+				<button type="button" class="close" data-dismiss="alert">&times;</button>
+				<span id="messageInfo"></span>
+			</div>
+		
+		</div>
+
+	</body>
+
+</html>
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<script src="js/product_sel.js"></script>
