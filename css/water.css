@@ -31,6 +31,14 @@
 	margin: 20px 10px;
 	display: none;
 }
+
+.clear-padding{
+	padding: 0px;
+}
+.clear-margin{
+	margin: 0px;
+}
+
 /********************************选购界面*******************************/
 /*定位信息显示层样式*/
 
@@ -41,6 +49,7 @@
 	line-height: 30px;
 	border-bottom: 1px solid gainsboro;
 	padding-left: 10px;
+	box-sizing: border-box;
 }
 /*水的选择*/
 
@@ -62,25 +71,25 @@
 }
 .name-li {
 	height: 30px;
-	width: 35%;
+	width: 20%;
 	display: inline-block;
 	padding-left: 20px;
 	line-height: 30px;!important
 }
 .name-circle {
-	width: 30px;
+	width: 50px;
 	height: 30px;
 	display: block;
-	border: 1px solid gainsboro;
+	/*border: 1px solid gainsboro;*/
 	text-align: center;
 	vertical-align: middle;
-	border-radius: 15px;
+	/*border-radius: 15px;
 	-moz-border-radius: 15px;
-	-webkit-border-radius: 15px;
+	-webkit-border-radius: 15px;*/
 }
 .price-li {
 	height: 30px;
-	width: 30%;
+	width: 35%;
 	display: inline-block;
 	cursor: pointer;
 	line-height: 30px;!important
